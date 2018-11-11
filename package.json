@@ -38,6 +38,10 @@
     "tempy": "^0.2.1",
     "wait-for-localhost": "2.0.1"
   },
+  "peerDependencies": {
+    "cross-env": "^5.2.0",
+    "webpack": "^4.25.1"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
